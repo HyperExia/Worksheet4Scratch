@@ -1,4 +1,5 @@
-
+import java.io.File;
+import java.util.Scanner;
 /**
  * Write a description of class CSVReader here.
  *
