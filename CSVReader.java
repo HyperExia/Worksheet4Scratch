@@ -2,7 +2,7 @@
  * Write a description of class CSVReader here.
  *
  * @author Brennan Chan
- * @version (a version number or a date)
+ * @version 6/5/2020
  */
 //OBJECTIVE: take the average of both columns and print it to the console
 import java.io.File;

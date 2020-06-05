@@ -2,13 +2,13 @@
  * Write a description of class TextReader here.
  *
  * @author Brennan Chan
- * @version (a version number or a date)
+ * @version 6/5/2020
  */
 //OBJECTIVE: read the data and print it to the console
 import java.io.File;
 import java.util.Scanner;
 import java.io.FileNotFoundException;
-public class TextReader extends FileReader    
+public class TextReader extends FileReader
 {
     File file;
     

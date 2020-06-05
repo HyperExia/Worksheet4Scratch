@@ -3,7 +3,7 @@
  * Abstract class FileReader - write a description of the class here
  *
  * @author Brennan Chan
- * @version (version number or date here)
+ * @version 6/5/2020
  */
 import java.io.File;
 public abstract class FileReader

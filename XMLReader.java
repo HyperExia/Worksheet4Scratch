@@ -2,7 +2,7 @@
  * Write a description of class XMLReader here.
  *
  * @author Brennan Chan
- * @version (a version number or a date)
+ * @version 6/5/2020
  */
 //OBJECTIVE: print the information to the console without the nodes
 import java.io.File;

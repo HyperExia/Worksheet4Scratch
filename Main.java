@@ -1,8 +1,9 @@
 /**
  * Write a description of class Main here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Brennan Chan
+ * @version 6/5/2020
+ * 
  */
 import java.io.File;
 import java.util.Scanner;
