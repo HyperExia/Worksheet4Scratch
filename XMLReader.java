@@ -1,20 +1,18 @@
-import java.io.File;
-import java.util.Scanner;
 /**
  * Write a description of class XMLReader here.
  *
- * @author (your name)
+ * @author Brennan Chan
  * @version (a version number or a date)
  */
+import java.io.File;
+import java.util.Scanner;
 public class XMLReader extends FileReader
 {
     File file;
-    private int x;
 
     public XMLReader()
     {
-        // initialise instance variables
-        x = 0;
+        
     }
 
     public boolean readFile(){
