@@ -21,7 +21,5 @@ public abstract class FileReader
         // put your code here
         return 0;
     }
-    public boolean readFile(){
-        return false;
-    }
+    
 }
