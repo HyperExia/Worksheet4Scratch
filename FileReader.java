@@ -11,7 +11,6 @@ public abstract class FileReader
     
     public int findFileType(File file)
     {
-        // put your code here
         return 0;
     }
     

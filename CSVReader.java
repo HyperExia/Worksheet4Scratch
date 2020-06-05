@@ -7,13 +7,15 @@
 //OBJECTIVE: take the average of both columns and print it to the console
 import java.io.File;
 import java.util.Scanner;
+import java.io.FileNotFoundException;
 public class CSVReader extends FileReader
 {
-
-    public CSVReader()
+    File file;
+    public CSVReader(File file) throws FileNotFoundException
     {
-        File filename = new File ("Nile.csv");
-        Scanner scan = new Scanner(System.in);
+        this.file = file;
+        File fileName = new File ("Nile.csv");
+        Scanner scan = new Scanner(fileName);
     }
     
     public boolean readFile(){

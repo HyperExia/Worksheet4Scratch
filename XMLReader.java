@@ -7,13 +7,15 @@
 //OBJECTIVE: print the information to the console without the nodes
 import java.io.File;
 import java.util.Scanner;
+import java.io.FileNotFoundException;
 public class XMLReader extends FileReader
 {
-
-    public XMLReader()
+    File file;
+    public XMLReader(File file) throws FileNotFoundException
     {
-        File filename = new File ("Nile.csv");
-        
+        this.file = file;
+        File fileName = new File ("Nile.csv");
+        Scanner scan = new Scanner(fileName);
     }
 
     public boolean readFile(){

@@ -7,12 +7,16 @@
 //OBJECTIVE: read the data and print it to the console
 import java.io.File;
 import java.util.Scanner;
-public class TextReader extends FileReader
+import java.io.FileNotFoundException;
+public class TextReader extends FileReader    
 {
-
-    public TextReader(File file)
+    File file;
+    
+    public TextReader(File file) throws FileNotFoundException
     {
+        this.file = file;
         File fileName = new File("Aeneid.txt");
+        Scanner scan = new Scanner(fileName);
     }
 
     public boolean readFile(){
