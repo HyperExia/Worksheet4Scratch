@@ -6,6 +6,7 @@
  */
 import java.io.File;
 import java.util.Scanner;
+import java.io.FileNotFoundException;
 public class Main
 {
     TextReader tr;
@@ -16,15 +17,17 @@ public class Main
         Main main = new Main();
         //main.run();
     }
-    public void run(){
+    public void run() throws FileNotFoundException
+    {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a file path to process:");
         String input = scan.next();
-        /*
+        
         tr = new TextReader(new File(input));
         cr = new CSVReader(new File(input));
         xr = new XMLReader(new File(input));
-        */
+        
+        int type = tr.findFileType(new File(input));
     }
     
 }

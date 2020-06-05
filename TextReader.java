@@ -17,6 +17,7 @@ public class TextReader extends FileReader
         this.file = file;
         File fileName = new File("Aeneid.txt");
         Scanner scan = new Scanner(fileName);
+        
     }
 
     public boolean readFile(){
